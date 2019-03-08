@@ -1,5 +1,7 @@
 Credits: Matthew Eltze, Eric Bruggeman, William Spurr 2018
 
+Original repo can be found at https://github.com/Eltzem/Strattonn
+
 Welcome to the README file for the Strattonn trading system.
 This file will tell you about the organization of the Stratton directory, how
 to use the software, and what required packages need installing.
