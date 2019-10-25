@@ -1,6 +1,7 @@
 Credits: Matthew Eltze, Eric Bruggeman, William Spurr 2018
 
 Original repo can be found at https://github.com/Eltzem/Strattonn
+I pushed to my own github to clean up some unecessary files and guarantee it would remain available online.
 
 Welcome to the README file for the Strattonn trading system.
 This file will tell you about the organization of the Stratton directory, how
@@ -17,35 +18,35 @@ from data.
 of the directory. The main file that needs to be run to use the system
 is Strattonn.py.
 
-	To run a genetic search, look at the examples in GNN_stock-VTI-5hl.py.
+To run a genetic search, look at the examples in GNN_stock-VTI-5hl.py.
 This file shows how to run a genetic search with the stock symbol VTI.
 
-	Downloaded and formatted data is kept in the directory 'data'. Each
+Downloaded and formatted data is kept in the directory 'data'. Each
 subdirectory corresponds to a different time interval. All data with a
 1 minute time interval is kept in '1min' folder, all data with a daily
 time interval is kept in the 'daily' time interval folder.
 
-	Functions used to update and append data are in AlphaVantage.py.
+Functions used to update and append data are in AlphaVantage.py.
 	
-	Functions used to calculate data statistics are in PreprocessCsv.py 
+Functions used to calculate data statistics are in PreprocessCsv.py 
 and framePrepDnn.py.
 	
-	Functions used to perpare data for training and testing in a neural
+Functions used to perpare data for training and testing in a neural
 network are in LoadData.py.
 	
-	The DNN class, responsible for creating deep neural networks, is in
+The DNN class, responsible for creating deep neural networks, is in
 DNN.py. Its data access object is in DNN_dao.py.
 	
-	The Chromosome class, responsible for representing neural network
+The Chromosome class, responsible for representing neural network
 architectures, is in Chromosome.py. Its data access object is in
 Chromosome_dao.py.
 	
-	The Genetic Search algorithm class is in GeneticSearchDNN.py.
+The Genetic Search algorithm class is in GeneticSearchDNN.py.
 	
-	Paths.py contains functions for creating data file paths based on
+Paths.py contains functions for creating data file paths based on
 differences in operating system and stock symbol / time series.
 	
-	The text interface for the Strattonn system is in Strattonn.py.
+The text interface for the Strattonn system is in Strattonn.py.
 
 ==== Required Packages ====
 	The Python runtime is required to run Strattonn.py with at least version
