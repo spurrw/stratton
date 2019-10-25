@@ -1,4 +1,4 @@
-Credits: Matthew Eltze, Eric Bruggeman, William Spurr 2018
+Credits: William Spurr, Matthew Eltze, Eric Bruggeman 2018
 
 Original repo can be found at https://github.com/Eltzem/Strattonn
 I pushed to my own github to clean up some unecessary files and guarantee it would remain available online.
